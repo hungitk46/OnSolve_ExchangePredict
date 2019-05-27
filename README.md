@@ -1,5 +1,5 @@
 # OnSolve_ExchangePredict
-Architechture: Clean architecture
+Architechture: using Clean architecture and SOLID design principles
 Project Structure
 - src
   - API : demo with using sqlserver database and memorycache
