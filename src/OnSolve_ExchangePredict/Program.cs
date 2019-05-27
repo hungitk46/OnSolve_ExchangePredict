@@ -21,7 +21,6 @@ namespace OnSolve.ExchangeRateForecast.ConsoleApp
                 .AddLogging()
                 .AddDbContext<ForecastContext>(c =>
                 c.UseInMemoryDatabase("PredictExchange2"))
-                //c.UseSqlServer(Configuration.GetConnectionString("PredictExchangeConnection")))
                 .AddScoped(typeof(IAsyncRepository<>), typeof(EfRepository<>))
                 .AddSingleton<IForecast, ForecastService>()
                 .AddMemoryCache()
