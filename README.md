@@ -7,4 +7,4 @@ Project Structure
   - Infrastructure: processing with data repository
   - ApplicationCore: demo Forecast exchange rate currrency using MemoryDatabase
  - tests
-  - UnitTests: for purpose testing Forecast in Core (Service)
+    - UnitTests: for purpose testing Forecast in Core (Service)
